@@ -8,6 +8,7 @@ export const Profileimage = (props) => {
       <img 
            className="profile-photo" 
            src ={props.image}
+           alt="Image of Maria"
       />
       <div className="overlay">
           <h2 className={props.textColor}>{props.name}</h2>
