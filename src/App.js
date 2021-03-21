@@ -1,9 +1,13 @@
 import React from 'react'
+import Profileimage from './components/Profileimage'
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <Profileimage 
+      image = {"/assets/me.png"}
+      name = {"Maria Sparre"}
+      textColor = 'textColor'
+    />
+    
   )
 }
